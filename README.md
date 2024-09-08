@@ -65,13 +65,17 @@ TFDF offers robust decision tree-based models, such as random forests, which eff
 
 Both models were trained and evaluated on validation and test sets. Key steps included:
 
-Data pre-processing (handling missing values, encoding categorical variables)
+Data pre-processing (Splitting dataset, handling target and independent variables etc)
 
 Training the models using CatBoost and TFDF
 
 Analyzing feature importance for both models
 
 Comparing predictions and feature importance across both models
+
+**Results**
+
+Predicted SalePrice output from Tensorflow RandomForest Model and CatBoost model have been saved in the 'tfdf_results.csv' and 'catboost_results.csv' files.
 
 **Conclusion and Recommendations**
 
