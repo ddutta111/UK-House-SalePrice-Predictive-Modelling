@@ -440,3 +440,9 @@ Stakeholders should focus on enhancing overall property quality and living area,
 Strategic Insights:
 
 Investors can combine insights from both models to refine future sale price predictions, particularly for properties where features like GarageCars and BsmtQual are highly relevant.
+
+(Note: Please check the Google Colb notebook for details explanation and graphs)
+
+**Author: Debolina Dutta**
+
+**LinkedIn:** https://www.linkedin.com/in/duttadebolina/
