@@ -164,6 +164,7 @@ Categorical variables should be encoded.
 Numerical variables are closely correlated with SalePrice, influencing model selection.
 
 5. **Model Selection**
+   
 Based on the EDA findings, two predictive models were selected for their ability to handle missing data and categorical variables efficiently:
 
 > CatBoost
@@ -414,11 +415,28 @@ plt.tight_layout()
 plt.show()
 ```
 
-**Results**
+**Findings**
 
 Predicted SalePrice output from Tensorflow RandomForest Model and CatBoost model have been saved in the 'tfdf_results.csv' and 'catboost_results.csv' files.
 
+From the above two model analysis we can observe, for predicting UK house sale prices, CatBoost demonstrates slightly better performance with an R-squared value of 89%, compared to 82% for TFDF. This indicates that CatBoost explains a higher proportion of the variance in house prices and provides more accurate predictions overall.
+
+However, the feature importance comparison suggests that TFDF places greater emphasis on specific features like GarageCars and BsmtQual, which may be more relevant for certain properties. In contrast, CatBoost assigns more balanced importance across a broader range of features, including OverallQual and GrLivArea, making it a well-rounded choice.
+
 **Conclusion and Recommendations**
 
-CatBoost performed well due to its ability to handle categorical variables and missing data natively. TFDF showed strong scalability and performance with large datasets, providing reliable predictions.
-Based on the feature importance analysis, stakeholders can gain insights into the factors most affecting house prices and make data-driven decisions in the UK real estate market.
+CatBoost performed well due to its ability to handle categorical variables and missing data natively. TFDF showed strong scalability and performance with large datasets, providing reliable predictions. Based on the feature importance analysis, stakeholders can gain insights into the factors most affecting house prices and make data-driven decisions in the UK real estate market.
+
+> Recommendations for Stakeholders
+
+Model Selection:
+
+CatBoost is the preferred model for predicting UK house prices due to its superior accuracy and effective feature balancing compared to the TensorFlow Random Forest model.
+
+Investment and Improvement Focus:
+
+Stakeholders should focus on enhancing overall property quality and living area, as both models identify these as crucial factors influencing property value. Additionally, improvements to garages and basements are recommended based on the TensorFlow model's sensitivity to these features.
+
+Strategic Insights:
+
+Investors can combine insights from both models to refine future sale price predictions, particularly for properties where features like GarageCars and BsmtQual are highly relevant.
