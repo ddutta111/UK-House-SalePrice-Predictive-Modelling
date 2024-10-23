@@ -19,19 +19,19 @@ The ultimate objective is to deliver an accurate and interpretable model, enabli
 
 The dataset contains attributes describing various properties, including physical characteristics, location, and sale details. The training dataset includes the target variable (SalePrice), while the test dataset omits this column. Key variables include:
 
-MSSubClass: Type of dwelling (e.g., 1-Story, Duplex)
+```MSSubClass:``` Type of dwelling (e.g., 1-Story, Duplex)
 
-MSZoning: General zoning classification (e.g., Residential, Commercial)
+```MSZoning:``` General zoning classification (e.g., Residential, Commercial)
 
-LotFrontage: Linear feet of street connected to the property
+```LotFrontage:``` Linear feet of street connected to the property
 
-OverallQual: Material and finish quality (rated 1-10)
+```OverallQual:``` Material and finish quality (rated 1-10)
 
-GrLivArea: Above-grade living area square feet
+```GrLivArea:``` Above-grade living area square feet
 
-SaleType: Type of sale (e.g., Warranty Deed, Cash)
+```SaleType:``` Type of sale (e.g., Warranty Deed, Cash)
 
-SaleCondition: Condition of the sale (e.g., Normal, Abnormal)
+```SaleCondition:``` Condition of the sale (e.g., Normal, Abnormal)
 
 **Exploratory Data Analysis (EDA)**
 
